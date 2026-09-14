@@ -1,0 +1,889 @@
+{
+  "slug": "glo-tanning",
+  "brand": "Glo Tanning",
+  "franchisor_legal_name": "GLO Tanning Franchise, LLC",
+  "field_count": 106,
+  "logoUrl": "https://www.glotanning.com/wp-content/uploads/2023/12/glo-logo-type-pink.svg",
+  "franchiseFee": 45000,
+  "totalInvestmentMin": 757200,
+  "totalInvestmentMax": 1478167,
+  "royaltyPercent": "6.5%",
+  "adFee": "3%",
+  "totalUnits": 82,
+  "openLocations": 82,
+  "corporateCity": "Oklahoma City",
+  "corporateState": "OK",
+  "corporateZip": "73142",
+  "corporateAddress": "12335 N. Rockwell Ave., Oklahoma City, Oklahoma 73142",
+  "description": "Glo Tanning is a luxury sun spa franchise offering tanning and spa services, founded in 2018 and franchising since September 2020 from Oklahoma City, Oklahoma. Per the 2025 FDD (issued June 16, 2025, as amended September 15, 2025), the franchise fee is $45,000, total initial investment ranges from $757,200 to $1,478,167, royalty is 6.5% of gross sales with a 3% marketing fund fee, and territory is exclusive. Item 19 reports 51 franchise salons open full-year 2024 with average gross sales of about $749,048 and quartile detail. No litigation or bankruptcy is disclosed. The system had 82 outlets at end of 2024 (77 franchised, 5 company-owned) across 15 states, up from 40 at end of 2022.",
+  "category": "Tanning / Beauty & Spa",
+  "websiteUrl": "https://www.glotanning.com",
+  "yearFounded": 2018,
+  "fddYear": 2025,
+  "fddPdfSha256": "48def49c4210ba6ba4d45d541104eaac69b83427324de4359f2fce2438906947",
+  "territoryDescription": "Exclusive territory: franchisor will not establish another GLO Tanning unit within your territory while you are in strict compliance. Territory is usually a 2-mile radius from the franchise location; mall/facility sites are bounded by the facility. (FDD Item 12, p.31)",
+  "item12": "exclusive",
+  "item20PinCount": 77,
+  "hq_source": "fdd-item-1 (FDD Item 1, p.9)",
+  "risk_score": 45,
+  "risk_components": {
+    "base": 50,
+    "capital_ceiling": 10,
+    "fee_burden": 5,
+    "seasonality": 5,
+    "no_litigation": -10,
+    "zero_terminations": -10,
+    "unit_growth": -5
+  },
+  "pins": [
+    {
+      "city": "Pelham",
+      "state": "AL",
+      "latitude": 33.285669,
+      "longitude": -86.809988,
+      "pin_source": "FDD Exhibit C franchisee address: 2236 Pelham Pkwy., Pelham, AL 35124; geocoded city centroid"
+    },
+    {
+      "city": "Rogers",
+      "state": "AR",
+      "latitude": 36.334857,
+      "longitude": -94.119382,
+      "pin_source": "FDD Exhibit C franchisee address: 2012 S Promenade Blvd, Rogers, AR 72758; geocoded city centroid"
+    },
+    {
+      "city": "Denver",
+      "state": "CO",
+      "latitude": 39.739236,
+      "longitude": -104.984862,
+      "pin_source": "FDD Exhibit C franchisee address: 3970 Buchtel Blvd S, Denver, CO 80210; geocoded city centroid"
+    },
+    {
+      "city": "Newark",
+      "state": "DE",
+      "latitude": 39.682836,
+      "longitude": -75.751568,
+      "pin_source": "FDD Exhibit C franchisee address: 136 S. Main St. Unit 107, Newark, DE 19711; geocoded city centroid"
+    },
+    {
+      "city": "Boca Raton",
+      "state": "FL",
+      "latitude": 26.358688,
+      "longitude": -80.083098,
+      "pin_source": "FDD Exhibit C franchisee address: 20642 State Road 7 Ste 4, Boca Raton, FL 33498; geocoded city centroid"
+    },
+    {
+      "city": "Kennesaw",
+      "state": "GA",
+      "latitude": 34.023434,
+      "longitude": -84.61549,
+      "pin_source": "FDD Exhibit C franchisee address: 1600 Kennesaw Due West Road Ste 304, Kennesaw, GA 30152; geocoded city centroid"
+    },
+    {
+      "city": "Bel Air",
+      "state": "MD",
+      "latitude": 39.579752,
+      "longitude": -78.853189,
+      "pin_source": "FDD Exhibit C franchisee address: 534 Baltimore Pike, Bel Air, MD 21014; geocoded city centroid"
+    },
+    {
+      "city": "Oklahoma City",
+      "state": "OK",
+      "latitude": 35.472989,
+      "longitude": -97.517054,
+      "pin_source": "FDD Exhibit C franchisee address: 1140 SW 104th St, Oklahoma City, OK 73139; geocoded city centroid"
+    },
+    {
+      "city": "Huber Heights",
+      "state": "OH",
+      "latitude": 39.859024,
+      "longitude": -84.11127,
+      "pin_source": "FDD Exhibit C franchisee address: 7405 Old Troy Pike, Huber Heights, OH 45424; geocoded city centroid"
+    },
+    {
+      "city": "Chattanooga",
+      "state": "TN",
+      "latitude": 35.045722,
+      "longitude": -85.309488,
+      "pin_source": "FDD Exhibit C franchisee address: 1414 Jenkins Rd Suite 146c, Chattanooga, TN 37353; geocoded city centroid"
+    },
+    {
+      "city": "Plano",
+      "state": "TX",
+      "latitude": 33.013676,
+      "longitude": -96.69251,
+      "pin_source": "FDD Exhibit C franchisee address: 6141 Windhaven Pkwy Ste 100, Plano, TX 75093; geocoded city centroid"
+    },
+    {
+      "city": "Oxford",
+      "state": "MS",
+      "latitude": 34.366377,
+      "longitude": -89.518766,
+      "pin_source": "FDD Exhibit C franchisee address: 1301 Merchants Dr, Oxford, MS 38655; geocoded city centroid"
+    }
+  ],
+  "fields": {
+    "franchisor_legal_name": {
+      "value": "GLO Tanning Franchise, LLC",
+      "type": "absolute",
+      "item": "FDD cover page + Item 1, p.9"
+    },
+    "franchisor_entity_type": {
+      "value": "Oklahoma limited liability company",
+      "type": "absolute",
+      "item": "FDD cover page + Item 1, p.9"
+    },
+    "franchisor_formed_date": {
+      "value": "2020-09-15",
+      "type": "absolute",
+      "item": "FDD Item 1, p.9 \u2014 organized September 15, 2020"
+    },
+    "corporate_address": {
+      "value": "12335 N. Rockwell Ave., Oklahoma City, Oklahoma 73142",
+      "type": "absolute",
+      "item": "FDD Item 1, p.9"
+    },
+    "corporate_phone": {
+      "value": "(405) 708-6320",
+      "type": "absolute",
+      "item": "FDD cover page"
+    },
+    "corporate_email": {
+      "value": "onyi@glotanning.com",
+      "type": "absolute",
+      "item": "FDD cover page"
+    },
+    "corporate_city": {
+      "value": "Oklahoma City",
+      "type": "absolute",
+      "item": "FDD Item 1, p.9"
+    },
+    "corporate_state": {
+      "value": "OK",
+      "type": "absolute",
+      "item": "FDD Item 1, p.9"
+    },
+    "corporate_zip": {
+      "value": "73142",
+      "type": "absolute",
+      "item": "FDD cover page"
+    },
+    "dba_name": {
+      "value": "Glo Tanning",
+      "type": "absolute",
+      "item": "FDD Item 1, p.9"
+    },
+    "logo_url": {
+      "value": "https://www.glotanning.com/wp-content/uploads/2023/12/glo-logo-type-pink.svg",
+      "type": "absolute",
+      "item": "Brand page <img class=\"brand\"> + og:image tag; official franchisor site asset; fetched 2026-09-14 -> HTTP 200, image/svg+xml, 1350 bytes"
+    },
+    "operates_other_concepts": {
+      "value": "No \u2014 no other business activities other than franchising the Glo Tanning brand",
+      "type": "absolute",
+      "item": "FDD Item 1, p.9"
+    },
+    "parent_name": {
+      "value": "Glo Tanning Centers Inc",
+      "type": "absolute",
+      "item": "FDD Item 1, p.9"
+    },
+    "parent_entity_type": {
+      "value": "Oklahoma corporation",
+      "type": "absolute",
+      "item": "FDD Item 1, p.9"
+    },
+    "parent_incorporated_date": {
+      "value": "2018-09-12",
+      "type": "absolute",
+      "item": "FDD Item 1, p.9"
+    },
+    "parent_address": {
+      "value": "12335 N Rockwell Ave, Oklahoma City, Oklahoma 73142",
+      "type": "absolute",
+      "item": "FDD Item 1, p.9"
+    },
+    "affiliate_real_estate": {
+      "value": "Prime Capital Real Estate Group, LLC (Texas LLC, organized 2025-01-29) \u2014 required real estate broker",
+      "type": "absolute",
+      "item": "FDD Item 1, p.9"
+    },
+    "franchisor_formed_year": {
+      "value": 2020,
+      "type": "absolute",
+      "item": "FDD Item 1, p.9"
+    },
+    "brand_founded_year": {
+      "value": 2018,
+      "type": "absolute",
+      "item": "FDD Item 1, p.9 \u2014 parent operated Glo Tanning businesses since 2018"
+    },
+    "year_franchising_began": {
+      "value": 2020,
+      "type": "absolute",
+      "item": "FDD Item 1, p.9 \u2014 began selling franchises September 2020"
+    },
+    "business_description": {
+      "value": "Luxury sun spa offering a variety of tanning and spa services under the GLO Tanning\u00ae name and proprietary marks",
+      "type": "absolute",
+      "item": "FDD cover page + Item 1, p.9"
+    },
+    "market_competition": {
+      "value": "Well developed and competitive: sun spas, traditional tanning salons (national chains to independents); majority of annual sales occur February-June (seasonal)",
+      "type": "absolute",
+      "item": "FDD Item 1, p.10"
+    },
+    "area_development_available": {
+      "value": "Yes \u2014 4-unit minimum; development fee $120,000 ($45,000 for 1st unit + $25,000 for units 2-4)",
+      "type": "absolute",
+      "item": "FDD Item 1, p.10; Item 5, p.11"
+    },
+    "fdd_issue_date": {
+      "value": "2025-06-16",
+      "type": "absolute",
+      "item": "FDD cover page \u2014 Issuance Date June 16, 2025, as amended September 15, 2025"
+    },
+    "fdd_amendment_date": {
+      "value": "2025-09-15",
+      "type": "absolute",
+      "item": "FDD cover page"
+    },
+    "tan_tax": {
+      "value": "10% federal excise tax on all UV tanning services (PPACA) collected and remitted by franchisee",
+      "type": "absolute",
+      "item": "FDD Item 1, p.10"
+    },
+    "ceo_name": {
+      "value": "Onyi Odunukwe",
+      "type": "absolute",
+      "item": "FDD Item 2, p.11 \u2014 Co-Founder and CEO"
+    },
+    "ceo_since": {
+      "value": "2020 (inception); CEO of Glo Tanning Centers, Inc. since 2018",
+      "type": "absolute",
+      "item": "FDD Item 2, p.11"
+    },
+    "cfo_name": {
+      "value": "Paul Rudnicki",
+      "type": "absolute",
+      "item": "FDD Item 2, p.11 \u2014 Co-Founder and CFO"
+    },
+    "coo_name": {
+      "value": "Denae Blough",
+      "type": "absolute",
+      "item": "FDD Item 2, p.11 \u2014 Chief Operations Officer since July 2025; Director of Training since 2018"
+    },
+    "cdo_cto_name": {
+      "value": "Amara Omoregie",
+      "type": "absolute",
+      "item": "FDD Item 2, p.11 \u2014 Chief Development Officer and Chief Technology Officer since July 2025"
+    },
+    "dev_manager_name": {
+      "value": "Quinn Cooper",
+      "type": "absolute",
+      "item": "FDD Item 2, p.11 \u2014 Franchise Development Manager since July 2024"
+    },
+    "litigation_pending_count": {
+      "value": 0,
+      "type": "absolute",
+      "item": "FDD Item 3, p.11 \u2014 'No litigation is required to be disclosed in this Item'"
+    },
+    "bankruptcy_disclosed": {
+      "value": "None",
+      "type": "absolute",
+      "item": "FDD Item 4, p.11 \u2014 'No bankruptcy is required to be disclosed in this Item'"
+    },
+    "initial_franchise_fee": {
+      "value": 45000,
+      "type": "absolute",
+      "item": "FDD Item 5, p.11"
+    },
+    "franchise_fee_uniform": {
+      "value": "Yes \u2014 uniform for all franchisees; payable lump sum upon signing",
+      "type": "absolute",
+      "item": "FDD Item 5, p.11"
+    },
+    "franchise_fee_additional_unit": {
+      "value": "Greater of $30,000 or $15,000 off the then-current initial franchise fee",
+      "type": "absolute",
+      "item": "FDD Item 5, p.11"
+    },
+    "franchise_fee_refundable": {
+      "value": "No \u2014 fully earned when paid, non-refundable",
+      "type": "absolute",
+      "item": "FDD Item 5, p.11 + franchise agreement 5.1"
+    },
+    "area_development_fee_min": {
+      "value": 120000,
+      "type": "absolute",
+      "item": "FDD Item 5, p.11 \u2014 $45,000 for 1st unit + $25,000 each for units 2-4"
+    },
+    "grand_opening_advertising": {
+      "value": 50000,
+      "type": "absolute",
+      "item": "FDD Item 7, p.17 \u2014 Grand Opening Advertising, lump sum upon signing to us and affiliates"
+    },
+    "successor_franchise_fee": {
+      "value": 10000,
+      "type": "absolute",
+      "item": "FDD Item 6, p.12"
+    },
+    "royalty_terms": {
+      "value": "6.5% of Gross Sales, payable monthly by the 10th of the following month",
+      "type": "absolute",
+      "item": "FDD Item 6, p.12"
+    },
+    "marketing_fund_terms": {
+      "value": "3% of gross sales, payable monthly by the 10th of the following month",
+      "type": "absolute",
+      "item": "FDD Item 6, p.12"
+    },
+    "relocation_fee": {
+      "value": 5000,
+      "type": "absolute",
+      "item": "FDD Item 6, p.12"
+    },
+    "late_charges": {
+      "value": "$25 per day up to $500 per instance",
+      "type": "absolute",
+      "item": "FDD Item 6, p.12"
+    },
+    "interest_charges": {
+      "value": "18% or maximum rate permitted by state law, whichever is less",
+      "type": "absolute",
+      "item": "FDD Item 6, p.12"
+    },
+    "nsf_fee": {
+      "value": "$50 per bounced check or insufficient/disputed draft",
+      "type": "absolute",
+      "item": "FDD Item 6, p.12"
+    },
+    "investment_min": {
+      "value": 757200,
+      "type": "absolute",
+      "item": "FDD Item 7, p.17"
+    },
+    "investment_max": {
+      "value": 1478167,
+      "type": "absolute",
+      "item": "FDD Item 7, p.17"
+    },
+    "investment_paid_to_franchisor": {
+      "value": "97500 to 102500 \u2014 $97,500 to $102,500 must be paid to franchisor or affiliates",
+      "type": "absolute",
+      "item": "FDD cover page + Item 7, p.17"
+    },
+    "area_development_investment_range": {
+      "value": "3009800 to 5852668 \u2014 based on minimum 4-unit area development agreement",
+      "type": "absolute",
+      "item": "FDD cover page"
+    },
+    "real_estate_improvements_low": {
+      "value": 258000,
+      "type": "absolute",
+      "item": "FDD Item 7, p.17"
+    },
+    "real_estate_improvements_high": {
+      "value": 565000,
+      "type": "absolute",
+      "item": "FDD Item 7, p.17"
+    },
+    "equipment_ffi_low": {
+      "value": 315000,
+      "type": "absolute",
+      "item": "FDD Item 7, p.17 \u2014 equipment, furniture, fixtures, decor, supplies"
+    },
+    "equipment_ffi_high": {
+      "value": 550000,
+      "type": "absolute",
+      "item": "FDD Item 7, p.17"
+    },
+    "rent_3mo_low": {
+      "value": 6000,
+      "type": "absolute",
+      "item": "FDD Item 7, p.17 \u2014 3 months of rent plus deposit"
+    },
+    "rent_3mo_high": {
+      "value": 91667,
+      "type": "absolute",
+      "item": "FDD Item 7, p.17"
+    },
+    "additional_funds_low": {
+      "value": 41000,
+      "type": "absolute",
+      "item": "FDD Item 7, p.17"
+    },
+    "additional_funds_high": {
+      "value": 85000,
+      "type": "absolute",
+      "item": "FDD Item 7, p.17"
+    },
+    "financing_offered": {
+      "value": "No \u2014 we do not offer direct or indirect financing; do not guarantee note, lease or obligation",
+      "type": "absolute",
+      "item": "FDD Item 10, p.24"
+    },
+    "training_fee_per_person": {
+      "value": "Opening assistance fee $2,500 to $7,500; up to 3 representatives for up to 5 days",
+      "type": "absolute",
+      "item": "FDD Item 11, p.24"
+    },
+    "grand_opening_support": {
+      "value": "Franchisor conducts all grand opening marketing + up to 5 days on-site opening assistance",
+      "type": "absolute",
+      "item": "FDD Item 11, p.24"
+    },
+    "operations_manual": {
+      "value": "Currently no operations manual; will loan/provide electronic access once developed",
+      "type": "absolute",
+      "item": "FDD Item 11, p.24"
+    },
+    "time_to_open_estimate": {
+      "value": "6 to 9 months from signing; must begin operations no later than 12 months",
+      "type": "absolute",
+      "item": "FDD Item 11, p.25"
+    },
+    "site_selection_deadline_days": {
+      "value": 60,
+      "type": "absolute",
+      "item": "FDD Item 11, p.24 \u2014 60 days to select site from franchisor list; required real estate group"
+    },
+    "territory_exclusive": {
+      "value": "Yes \u2014 exclusive territory; franchisor will not establish another GLO Tanning\u00ae unit within it while in strict compliance",
+      "type": "absolute",
+      "item": "FDD Item 12, p.31"
+    },
+    "territory_size": {
+      "value": "Usually 2-mile radius from the franchise location; mall/facility territories limited to physical boundaries",
+      "type": "absolute",
+      "item": "FDD Item 12, p.31"
+    },
+    "territory_customer_restrictions": {
+      "value": "Franchisees may only service customers at their business premises; other franchisees may advertise within your territory",
+      "type": "absolute",
+      "item": "FDD Item 12, p.31-32"
+    },
+    "franchise_term_years": {
+      "value": 10,
+      "type": "absolute",
+      "item": "FDD Item 17, p.37 \u2014 begins upon signing"
+    },
+    "successor_term_years": {
+      "value": 10,
+      "type": "absolute",
+      "item": "FDD Item 17, p.37 \u2014 no right to renew; if in good standing may enter a successor agreement for an additional 10 years; successor fee $10,000"
+    },
+    "renewal_notice_days": {
+      "value": "180-365 days (between 6 and 12 months) prior to expiration",
+      "type": "absolute",
+      "item": "FDD Item 17, p.37"
+    },
+    "item19_franchise_salon_n": {
+      "value": 51,
+      "type": "absolute",
+      "item": "FDD Item 19, p.42 \u2014 51 franchise salons open the entire 2024 calendar year"
+    },
+    "item19_q1_avg_gross_sales": {
+      "value": 1103495.6,
+      "type": "absolute",
+      "item": "FDD Item 19, p.42 \u2014 Quartile 1 (12 salons)"
+    },
+    "item19_q2_avg_gross_sales": {
+      "value": 754429.41,
+      "type": "absolute",
+      "item": "FDD Item 19, p.42 \u2014 Quartile 2 (13 salons)"
+    },
+    "item19_q3_avg_gross_sales": {
+      "value": 623481.26,
+      "type": "absolute",
+      "item": "FDD Item 19, p.42 \u2014 Quartile 3 (13 salons)"
+    },
+    "item19_q4_avg_gross_sales": {
+      "value": 542050.76,
+      "type": "absolute",
+      "item": "FDD Item 19, p.42 \u2014 Quartile 4 (13 salons)"
+    },
+    "item19_q1_median": {
+      "value": 969943,
+      "type": "absolute",
+      "item": "FDD Item 19, p.42"
+    },
+    "item19_q2_median": {
+      "value": 752200,
+      "type": "absolute",
+      "item": "FDD Item 19, p.42"
+    },
+    "item19_q3_median": {
+      "value": 616490,
+      "type": "absolute",
+      "item": "FDD Item 19, p.42"
+    },
+    "item19_q4_median": {
+      "value": 558745,
+      "type": "absolute",
+      "item": "FDD Item 19, p.42"
+    },
+    "item19_company_salon_n": {
+      "value": 12,
+      "type": "absolute",
+      "item": "FDD Item 19, p.43 \u2014 12 company/affiliate-owned salons, full-year 2024; gross sales AND profit disclosed by quartile"
+    },
+    "item19_caveat": {
+      "value": "Earnings claims do not reflect costs/expenses to obtain net income; some outlets may earn this amount; no assurance you will earn as much",
+      "type": "absolute",
+      "item": "FDD Item 19, p.44"
+    },
+    "item20_franchised_end_2024": {
+      "value": 77,
+      "type": "absolute",
+      "item": "FDD Item 20, p.45 \u2014 Table No. 1"
+    },
+    "item20_franchised_end_2023": {
+      "value": 45,
+      "type": "absolute",
+      "item": "FDD Item 20, p.45"
+    },
+    "item20_franchised_end_2022": {
+      "value": 28,
+      "type": "absolute",
+      "item": "FDD Item 20, p.45"
+    },
+    "item20_company_owned_end_2024": {
+      "value": 5,
+      "type": "absolute",
+      "item": "FDD Item 20, p.45 \u2014 Table No. 1"
+    },
+    "item20_total_end_2024": {
+      "value": 82,
+      "type": "absolute",
+      "item": "FDD Item 20, p.45"
+    },
+    "item20_terminations_2022_2024": {
+      "value": 0,
+      "type": "absolute",
+      "item": "FDD Item 20, p.45-46 \u2014 terminations column 0 across all state rows; reacquired-by-franchisor 0; ceased-for-other-reasons 0"
+    },
+    "item20_states_2024": {
+      "value": "AL AR CO DE FL GA KS MD MS MO OH OK PA TN TX",
+      "type": "absolute",
+      "item": "FDD Item 20 Table No. 3, pp.45-46 \u2014 franchised-outlet state rows"
+    },
+    "item20_signed_not_opened": {
+      "value": 10,
+      "type": "absolute",
+      "item": "FDD Item 20/Exhibit C, p.71 \u2014 10 franchises signed but not opened as of 12/31/2024"
+    },
+    "item19_overall_avg_gross_sales": {
+      "value": 749048,
+      "type": "theoretical",
+      "item": "THEORETICAL \u2014 method: overall average = sum of quartile averages weighted by salon count / 51: (1,103,495.60*12 + 754,429.41*13 + 623,481.26*13 + 542,050.76*13) / 51 = 38,201,445.79 / 51 = 749,047.96 \u2248 $749,048"
+    },
+    "risk_score": {
+      "value": 45,
+      "type": "theoretical",
+      "item": "THEORETICAL \u2014 method: base 50 +10 high capital ceiling (max investment $1,478,167) +5 combined royalty/marketing burden 9.5% +5 seasonal concentration (majority of sales Feb-Jun) -10 zero litigation disclosed -10 zero terminations/reacquisitions/ceased 2022-2024 -5 strong franchised unit growth (+32 net in 2024) = 50+10+5+5-10-10-5 = 45/100"
+    },
+    "fee_burden_ratio_pct": {
+      "value": 5.9,
+      "type": "theoretical",
+      "item": "THEORETICAL \u2014 method: franchise fee $45,000 / Item 7 minimum investment $757,200 = 5.94%"
+    },
+    "unit_growth_2022_2024_pct": {
+      "value": 175.0,
+      "type": "theoretical",
+      "item": "THEORETICAL \u2014 method: (77 - 28) / 28 = 175.0% franchised growth end-2022 to end-2024 (Item 20 Table No. 1, p.45)"
+    },
+    "litigation_risk_flag": {
+      "value": "LOW",
+      "type": "theoretical",
+      "item": "THEORETICAL \u2014 method: 0 pending matters disclosed in FDD Item 3"
+    },
+    "item19_confidence": {
+      "value": "MODERATE",
+      "type": "theoretical",
+      "item": "THEORETICAL \u2014 method: n=51 franchise salons full-year 2024 with quartile + median detail; revenue-only (no expense breakdown for franchisees; company salons disclose profit)"
+    },
+    "saturation_index": {
+      "value": "low",
+      "type": "theoretical",
+      "item": "THEORETICAL \u2014 method: 82 total outlets across 15 states per Item 20 Table No. 3; system grew 40 -> 82 total 2022-2024"
+    },
+    "payback_period": {
+      "value": "insufficient-data",
+      "type": "theoretical",
+      "item": "THEORETICAL \u2014 method: FDD Item 19 discloses no net-income figure for franchisees; company-salon profit is quartiled only, not linkable to an investment multiple \u2014 labeled insufficient-data honestly"
+    },
+    "match_capital_min": {
+      "value": 757200,
+      "type": "matching",
+      "item": "MATCHING \u2014 method: Item 7 low-end investment"
+    },
+    "match_capital_target": {
+      "value": 800000,
+      "type": "matching",
+      "item": "MATCHING \u2014 method: Item 7 range midpoint region \u2014 upper-middle capital band $757,200 to $1,478,167"
+    },
+    "match_experience": {
+      "value": "Beauty/spa or retail-service background helpful; tanning-industry regulatory familiarity a plus",
+      "type": "matching",
+      "item": "MATCHING \u2014 method: Item 1 market description + Item 11 training"
+    },
+    "match_operational": {
+      "value": "Owner-operator model; lease + construction commitments within 6 months of signing",
+      "type": "matching",
+      "item": "MATCHING \u2014 method: Item 11, p.25"
+    },
+    "match_lifestyle": {
+      "value": "Seasonal demand peaks February-June; year-round operation",
+      "type": "matching",
+      "item": "MATCHING \u2014 method: Item 1, p.10"
+    },
+    "match_risk_appetite": {
+      "value": "Moderate-high: capital-intensive build-out and 10% federal Tan Tax on UV services; tempered by zero disclosed litigation and exclusive territory",
+      "type": "matching",
+      "item": "MATCHING \u2014 method: Item 1, p.10 + Item 3, p.11 + Item 12, p.31"
+    },
+    "match_location": {
+      "value": "US; exclusive territory usually 2-mile radius; mall/facility sites get facility-bounded territory",
+      "type": "matching",
+      "item": "MATCHING \u2014 method: Item 12, p.31"
+    },
+    "match_timeline": {
+      "value": "6-9 months from signing; begin operations no later than 12 months",
+      "type": "matching",
+      "item": "MATCHING \u2014 method: Item 11, p.25"
+    }
+  },
+  "netWorthRequirement": "not disclosed in FDD",
+  "netWorthRequirementNote": "grep of the source FDD text (fdd.txt, extracted from the signed PDF above) for 'net worth' returned 2 hits (both generic references, not requirement disclosures), 'net-worth' 0 hits, 'liquid capital' 0 hits \u2014 genuinely undisclosed in FDD, not missing data.",
+  "liquidCapitalRequirement": "not disclosed in FDD",
+  "liquidCapitalRequirementNote": "grep of the source FDD text for 'liquid capital' returned 0 hits; 'net worth' 2 non-requirement hits \u2014 genuinely undisclosed in FDD, not missing data.",
+  "pinVerification": {
+    "method": "Nominatim forward-geocode per pin (query A: informal city query; query B: structured city/state/country). Pin placed at query-A coordinate; verification = haversine(query-A, query-B) must be <= 50 km. Sleep >=1.2s between requests; User-Agent 'FKI-MapKI/1.0'.",
+    "run_at": "2026-09-14T17:11:33Z",
+    "pins_total": 12,
+    "pins_verified": 12,
+    "pins_unverifiable": 0,
+    "pins_mismatch": 0,
+    "all_verified": true,
+    "per_pin": [
+      {
+        "pin": 0,
+        "city": "Pelham",
+        "state": "AL",
+        "stored": [
+          33.285669,
+          -86.809988
+        ],
+        "verify_query": "Pelham, Alabama, United States",
+        "verify_coords": [
+          33.285669,
+          -86.809988
+        ],
+        "distance_km": 0.0,
+        "us_bounds_ok": true,
+        "status": "VERIFIED",
+        "address_source": "FDD Exhibit C franchisee address: 2236 Pelham Pkwy., Pelham, AL 35124"
+      },
+      {
+        "pin": 1,
+        "city": "Rogers",
+        "state": "AR",
+        "stored": [
+          36.334857,
+          -94.119382
+        ],
+        "verify_query": "Rogers, Arkansas, United States",
+        "verify_coords": [
+          36.334857,
+          -94.119382
+        ],
+        "distance_km": 0.0,
+        "us_bounds_ok": true,
+        "status": "VERIFIED",
+        "address_source": "FDD Exhibit C franchisee address: 2012 S Promenade Blvd, Rogers, AR 72758"
+      },
+      {
+        "pin": 2,
+        "city": "Denver",
+        "state": "CO",
+        "stored": [
+          39.739236,
+          -104.984862
+        ],
+        "verify_query": "Denver, Colorado, United States",
+        "verify_coords": [
+          39.739236,
+          -104.984862
+        ],
+        "distance_km": 0.0,
+        "us_bounds_ok": true,
+        "status": "VERIFIED",
+        "address_source": "FDD Exhibit C franchisee address: 3970 Buchtel Blvd S, Denver, CO 80210"
+      },
+      {
+        "pin": 3,
+        "city": "Newark",
+        "state": "DE",
+        "stored": [
+          39.682836,
+          -75.751568
+        ],
+        "verify_query": "Newark, Delaware, United States",
+        "verify_coords": [
+          39.682836,
+          -75.751568
+        ],
+        "distance_km": 0.0,
+        "us_bounds_ok": true,
+        "status": "VERIFIED",
+        "address_source": "FDD Exhibit C franchisee address: 136 S. Main St. Unit 107, Newark, DE 19711"
+      },
+      {
+        "pin": 4,
+        "city": "Boca Raton",
+        "state": "FL",
+        "stored": [
+          26.358688,
+          -80.083098
+        ],
+        "verify_query": "Boca Raton, Florida, United States",
+        "verify_coords": [
+          26.358688,
+          -80.083098
+        ],
+        "distance_km": 0.0,
+        "us_bounds_ok": true,
+        "status": "VERIFIED",
+        "address_source": "FDD Exhibit C franchisee address: 20642 State Road 7 Ste 4, Boca Raton, FL 33498"
+      },
+      {
+        "pin": 5,
+        "city": "Kennesaw",
+        "state": "GA",
+        "stored": [
+          34.023434,
+          -84.61549
+        ],
+        "verify_query": "Kennesaw, Georgia, United States",
+        "verify_coords": [
+          34.023434,
+          -84.61549
+        ],
+        "distance_km": 0.0,
+        "us_bounds_ok": true,
+        "status": "VERIFIED",
+        "address_source": "FDD Exhibit C franchisee address: 1600 Kennesaw Due West Road Ste 304, Kennesaw, GA 30152"
+      },
+      {
+        "pin": 6,
+        "city": "Bel Air",
+        "state": "MD",
+        "stored": [
+          39.579752,
+          -78.853189
+        ],
+        "verify_query": "Bel Air, Maryland, United States",
+        "verify_coords": [
+          39.573145,
+          -78.849744
+        ],
+        "distance_km": 0.79,
+        "us_bounds_ok": true,
+        "status": "VERIFIED",
+        "address_source": "FDD Exhibit C franchisee address: 534 Baltimore Pike, Bel Air, MD 21014"
+      },
+      {
+        "pin": 7,
+        "city": "Oklahoma City",
+        "state": "OK",
+        "stored": [
+          35.472989,
+          -97.517054
+        ],
+        "verify_query": "Oklahoma City, Oklahoma, United States",
+        "verify_coords": [
+          35.472989,
+          -97.517054
+        ],
+        "distance_km": 0.0,
+        "us_bounds_ok": true,
+        "status": "VERIFIED",
+        "address_source": "FDD Exhibit C franchisee address: 1140 SW 104th St, Oklahoma City, OK 73139"
+      },
+      {
+        "pin": 8,
+        "city": "Huber Heights",
+        "state": "OH",
+        "stored": [
+          39.859024,
+          -84.11127
+        ],
+        "verify_query": "Huber Heights, Ohio, United States",
+        "verify_coords": [
+          39.859024,
+          -84.11127
+        ],
+        "distance_km": 0.0,
+        "us_bounds_ok": true,
+        "status": "VERIFIED",
+        "address_source": "FDD Exhibit C franchisee address: 7405 Old Troy Pike, Huber Heights, OH 45424"
+      },
+      {
+        "pin": 9,
+        "city": "Chattanooga",
+        "state": "TN",
+        "stored": [
+          35.045722,
+          -85.309488
+        ],
+        "verify_query": "Chattanooga, Tennessee, United States",
+        "verify_coords": [
+          35.045722,
+          -85.309488
+        ],
+        "distance_km": 0.0,
+        "us_bounds_ok": true,
+        "status": "VERIFIED",
+        "address_source": "FDD Exhibit C franchisee address: 1414 Jenkins Rd Suite 146c, Chattanooga, TN 37353"
+      },
+      {
+        "pin": 10,
+        "city": "Plano",
+        "state": "TX",
+        "stored": [
+          33.013676,
+          -96.69251
+        ],
+        "verify_query": "Plano, Texas, United States",
+        "verify_coords": [
+          33.013676,
+          -96.69251
+        ],
+        "distance_km": 0.0,
+        "us_bounds_ok": true,
+        "status": "VERIFIED",
+        "address_source": "FDD Exhibit C franchisee address: 6141 Windhaven Pkwy Ste 100, Plano, TX 75093"
+      },
+      {
+        "pin": 11,
+        "city": "Oxford",
+        "state": "MS",
+        "stored": [
+          34.366377,
+          -89.518766
+        ],
+        "verify_query": "Oxford, Mississippi, United States",
+        "verify_coords": [
+          34.366377,
+          -89.518766
+        ],
+        "distance_km": 0.0,
+        "us_bounds_ok": true,
+        "status": "VERIFIED",
+        "address_source": "FDD Exhibit C franchisee address: 1301 Merchants Dr, Oxford, MS 38655"
+      }
+    ]
+  },
+  "pinsUpdatedAt": "2026-09-14T17:11:33Z",
+  "miner": "glo-tanning-build"
+}
