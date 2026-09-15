@@ -26,15 +26,38 @@
   "item20PinCount": 77,
   "hq_source": "fdd-item-1 (FDD Item 1, p.9)",
   "risk_score": 45,
-  "risk_components": {
-    "base": 50,
-    "capital_ceiling": 10,
-    "fee_burden": 5,
-    "seasonality": 5,
-    "no_litigation": -10,
-    "zero_terminations": -10,
-    "unit_growth": -5
-  },
+  "risk_components": [
+    {
+      "name": "capital_ceiling",
+      "weight": 10,
+      "note": "high capital ceiling (max investment $1,478,167; FDD Item 7)"
+    },
+    {
+      "name": "fee_burden",
+      "weight": 5,
+      "note": "combined royalty/marketing burden 9.5% (FDD Item 6)"
+    },
+    {
+      "name": "seasonality",
+      "weight": 5,
+      "note": "seasonal concentration (majority of sales Feb-Jun; FDD Item 1)"
+    },
+    {
+      "name": "no_litigation",
+      "weight": -10,
+      "note": "zero litigation disclosed (FDD Item 3)"
+    },
+    {
+      "name": "zero_terminations",
+      "weight": -10,
+      "note": "zero terminations/reacquisitions/ceased 2022-2024 (FDD Item 20)"
+    },
+    {
+      "name": "unit_growth",
+      "weight": -5,
+      "note": "strong franchised unit growth (+32 net in 2024; FDD Item 20)"
+    }
+  ],
   "pins": [
     {
       "city": "Pelham",
@@ -651,19 +674,25 @@
       "value": "6-9 months from signing; begin operations no later than 12 months",
       "type": "matching",
       "item": "MATCHING \u2014 method: Item 11, p.25"
-    }
+    },
+    "pinVerification": {
+      "run_at": "2026-09-14T22:10:37Z",
+      "all_verified": true,
+      "pins_total": 12
+    },
+    "pinsUpdatedAt": "2026-09-14T22:10:37Z"
   },
   "netWorthRequirement": "not disclosed in FDD",
   "netWorthRequirementNote": "grep of the source FDD text (fdd.txt, extracted from the signed PDF above) for 'net worth' returned 2 hits (both generic references, not requirement disclosures), 'net-worth' 0 hits, 'liquid capital' 0 hits \u2014 genuinely undisclosed in FDD, not missing data.",
   "liquidCapitalRequirement": "not disclosed in FDD",
   "liquidCapitalRequirementNote": "grep of the source FDD text for 'liquid capital' returned 0 hits; 'net worth' 2 non-requirement hits \u2014 genuinely undisclosed in FDD, not missing data.",
   "pinVerification": {
-    "method": "Nominatim forward-geocode per pin (query A: informal city query; query B: structured city/state/country). Pin placed at query-A coordinate; verification = haversine(query-A, query-B) must be <= 50 km. Sleep >=1.2s between requests; User-Agent 'FKI-MapKI/1.0'.",
-    "run_at": "2026-09-14T17:11:33Z",
+    "method": "D4-08 per-pin re-verification: independent Nominatim forward-geocode of each pin's (city, state); haversine vs stored plotted coords; 50km tolerance",
+    "run_utc": "2026-09-15T01:57:43.292036+00:00",
     "pins_total": 12,
     "pins_verified": 12,
-    "pins_unverifiable": 0,
     "pins_mismatch": 0,
+    "pins_unverifiable": 0,
     "all_verified": true,
     "per_pin": [
       {
@@ -674,15 +703,13 @@
           33.285669,
           -86.809988
         ],
-        "verify_query": "Pelham, Alabama, United States",
-        "verify_coords": [
+        "geocoded": [
           33.285669,
           -86.809988
         ],
+        "geocode_query": "Pelham, Alabama, United States",
         "distance_km": 0.0,
-        "us_bounds_ok": true,
-        "status": "VERIFIED",
-        "address_source": "FDD Exhibit C franchisee address: 2236 Pelham Pkwy., Pelham, AL 35124"
+        "status": "VERIFIED"
       },
       {
         "pin": 1,
@@ -692,15 +719,13 @@
           36.334857,
           -94.119382
         ],
-        "verify_query": "Rogers, Arkansas, United States",
-        "verify_coords": [
+        "geocoded": [
           36.334857,
           -94.119382
         ],
+        "geocode_query": "Rogers, Arkansas, United States",
         "distance_km": 0.0,
-        "us_bounds_ok": true,
-        "status": "VERIFIED",
-        "address_source": "FDD Exhibit C franchisee address: 2012 S Promenade Blvd, Rogers, AR 72758"
+        "status": "VERIFIED"
       },
       {
         "pin": 2,
@@ -710,15 +735,13 @@
           39.739236,
           -104.984862
         ],
-        "verify_query": "Denver, Colorado, United States",
-        "verify_coords": [
+        "geocoded": [
           39.739236,
           -104.984862
         ],
+        "geocode_query": "Denver, Colorado, United States",
         "distance_km": 0.0,
-        "us_bounds_ok": true,
-        "status": "VERIFIED",
-        "address_source": "FDD Exhibit C franchisee address: 3970 Buchtel Blvd S, Denver, CO 80210"
+        "status": "VERIFIED"
       },
       {
         "pin": 3,
@@ -728,15 +751,13 @@
           39.682836,
           -75.751568
         ],
-        "verify_query": "Newark, Delaware, United States",
-        "verify_coords": [
+        "geocoded": [
           39.682836,
           -75.751568
         ],
+        "geocode_query": "Newark, Delaware, United States",
         "distance_km": 0.0,
-        "us_bounds_ok": true,
-        "status": "VERIFIED",
-        "address_source": "FDD Exhibit C franchisee address: 136 S. Main St. Unit 107, Newark, DE 19711"
+        "status": "VERIFIED"
       },
       {
         "pin": 4,
@@ -746,15 +767,13 @@
           26.358688,
           -80.083098
         ],
-        "verify_query": "Boca Raton, Florida, United States",
-        "verify_coords": [
+        "geocoded": [
           26.358688,
           -80.083098
         ],
+        "geocode_query": "Boca Raton, Florida, United States",
         "distance_km": 0.0,
-        "us_bounds_ok": true,
-        "status": "VERIFIED",
-        "address_source": "FDD Exhibit C franchisee address: 20642 State Road 7 Ste 4, Boca Raton, FL 33498"
+        "status": "VERIFIED"
       },
       {
         "pin": 5,
@@ -764,15 +783,13 @@
           34.023434,
           -84.61549
         ],
-        "verify_query": "Kennesaw, Georgia, United States",
-        "verify_coords": [
+        "geocoded": [
           34.023434,
           -84.61549
         ],
+        "geocode_query": "Kennesaw, Georgia, United States",
         "distance_km": 0.0,
-        "us_bounds_ok": true,
-        "status": "VERIFIED",
-        "address_source": "FDD Exhibit C franchisee address: 1600 Kennesaw Due West Road Ste 304, Kennesaw, GA 30152"
+        "status": "VERIFIED"
       },
       {
         "pin": 6,
@@ -782,15 +799,13 @@
           39.579752,
           -78.853189
         ],
-        "verify_query": "Bel Air, Maryland, United States",
-        "verify_coords": [
-          39.573145,
-          -78.849744
+        "geocoded": [
+          39.579752,
+          -78.853189
         ],
-        "distance_km": 0.79,
-        "us_bounds_ok": true,
-        "status": "VERIFIED",
-        "address_source": "FDD Exhibit C franchisee address: 534 Baltimore Pike, Bel Air, MD 21014"
+        "geocode_query": "Bel Air, Maryland, United States",
+        "distance_km": 0.0,
+        "status": "VERIFIED"
       },
       {
         "pin": 7,
@@ -800,15 +815,13 @@
           35.472989,
           -97.517054
         ],
-        "verify_query": "Oklahoma City, Oklahoma, United States",
-        "verify_coords": [
+        "geocoded": [
           35.472989,
           -97.517054
         ],
+        "geocode_query": "Oklahoma City, Oklahoma, United States",
         "distance_km": 0.0,
-        "us_bounds_ok": true,
-        "status": "VERIFIED",
-        "address_source": "FDD Exhibit C franchisee address: 1140 SW 104th St, Oklahoma City, OK 73139"
+        "status": "VERIFIED"
       },
       {
         "pin": 8,
@@ -818,15 +831,13 @@
           39.859024,
           -84.11127
         ],
-        "verify_query": "Huber Heights, Ohio, United States",
-        "verify_coords": [
+        "geocoded": [
           39.859024,
           -84.11127
         ],
+        "geocode_query": "Huber Heights, Ohio, United States",
         "distance_km": 0.0,
-        "us_bounds_ok": true,
-        "status": "VERIFIED",
-        "address_source": "FDD Exhibit C franchisee address: 7405 Old Troy Pike, Huber Heights, OH 45424"
+        "status": "VERIFIED"
       },
       {
         "pin": 9,
@@ -836,15 +847,13 @@
           35.045722,
           -85.309488
         ],
-        "verify_query": "Chattanooga, Tennessee, United States",
-        "verify_coords": [
+        "geocoded": [
           35.045722,
           -85.309488
         ],
+        "geocode_query": "Chattanooga, Tennessee, United States",
         "distance_km": 0.0,
-        "us_bounds_ok": true,
-        "status": "VERIFIED",
-        "address_source": "FDD Exhibit C franchisee address: 1414 Jenkins Rd Suite 146c, Chattanooga, TN 37353"
+        "status": "VERIFIED"
       },
       {
         "pin": 10,
@@ -854,15 +863,13 @@
           33.013676,
           -96.69251
         ],
-        "verify_query": "Plano, Texas, United States",
-        "verify_coords": [
+        "geocoded": [
           33.013676,
           -96.69251
         ],
+        "geocode_query": "Plano, Texas, United States",
         "distance_km": 0.0,
-        "us_bounds_ok": true,
-        "status": "VERIFIED",
-        "address_source": "FDD Exhibit C franchisee address: 6141 Windhaven Pkwy Ste 100, Plano, TX 75093"
+        "status": "VERIFIED"
       },
       {
         "pin": 11,
@@ -872,18 +879,18 @@
           34.366377,
           -89.518766
         ],
-        "verify_query": "Oxford, Mississippi, United States",
-        "verify_coords": [
+        "geocoded": [
           34.366377,
           -89.518766
         ],
+        "geocode_query": "Oxford, Mississippi, United States",
         "distance_km": 0.0,
-        "us_bounds_ok": true,
-        "status": "VERIFIED",
-        "address_source": "FDD Exhibit C franchisee address: 1301 Merchants Dr, Oxford, MS 38655"
+        "status": "VERIFIED"
       }
     ]
   },
-  "pinsUpdatedAt": "2026-09-14T17:11:33Z",
-  "miner": "glo-tanning-build"
+  "pinsUpdatedAt": "2026-09-15T01:57:43.292036+00:00",
+  "miner": "glo-tanning-build",
+  "risk_method": "base 50 + capital_ceiling 10 + fee_burden 5 + seasonality 5 - no_litigation 10 - zero_terminations 10 - unit_growth 5 = 45",
+  "risk_source": "gen_fields.py risk method string"
 }
